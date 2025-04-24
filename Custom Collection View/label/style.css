@@ -1,0 +1,16 @@
+._1J1LQ0vGtpM3n0xw7XwQM6 div:not(._36QQLBgXFUVTOhU9jMkCWD) {
+    /* NON CONFIGURABLE */
+    width: auto;
+
+    /* BOUNDING BOX */
+    padding: var(--rkr-label-padding);
+    background: var(--rkr-label-background);
+    border-radius: var(--rkr-label-rounding);
+    
+    /* TEXT */
+    color: var(--rkr-label-text-colour);
+    text-align: var(--rkr-label-text-align) !important;
+    font-size: var(--rkr-label-text-size);
+    font-weight: var(--rkr-label-text-weight);
+    text-shadow: var(--rkr-label-text-shadow) var(--rkr-label-text-shadow) var(--rkr-label-text-shadow) var(--rkr-label-text-shadow-color);
+}

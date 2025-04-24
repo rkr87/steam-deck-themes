@@ -1,0 +1,24 @@
+._36QQLBgXFUVTOhU9jMkCWD {
+    /* NON CONFIGURABLE */
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+    overflow: hidden;
+
+    /* BOUNDING BOX */
+    padding: var(--rkr-count-padding);
+    background: var(--rkr-count-background);
+    border-radius: var(--rkr-count-rounding);
+
+    /* TEXT */
+    color: var(--rkr-count-text-colour) !important;
+    font-weight: var(--rkr-count-text-weight) !important;
+    text-shadow: var(--rkr-count-text-shadow) var(--rkr-count-text-shadow) var(--rkr-count-text-shadow) var(--rkr-count-text-shadow-color);
+    font-size: var(--rkr-count-text-size) !important;
+  }
+
+._36QQLBgXFUVTOhU9jMkCWD:before, ._36QQLBgXFUVTOhU9jMkCWD:after {
+    /* TRIM */
+    margin: 0px var(--rkr-count-text-edge-trim);
+    content: '';
+}

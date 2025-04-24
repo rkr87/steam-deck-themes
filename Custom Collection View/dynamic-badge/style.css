@@ -1,0 +1,11 @@
+.sZaUDqkKPd-EtHyaNfoKG.Focusable svg {
+    padding: var(--rkr-dynamic-badge-padding) !important;
+    background-color: var(--rkr-dynamic-badge-background);
+    border-radius: var(--rkr-dynamic-badge-rounding);
+    width: var(--rkr-dynamic-badge-size) !important;
+    height: var(--rkr-dynamic-badge-size) !important;
+}
+
+.sZaUDqkKPd-EtHyaNfoKG.Focusable svg path {
+    fill: var(--rkr-dynamic-badge-colour) !important;
+}

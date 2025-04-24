@@ -1,0 +1,52 @@
+
+/* GRID CONTAINER */
+._1X4dtbZ_AMX_DXT-SGiK01 {
+    padding-left: var(--rkr-grid-margin);
+    padding-right: var(--rkr-grid-margin)
+}
+
+/* GRID */
+._3vHkmRShhzwd67_MtEq8-n.Ma65KR7z4XhZl4vJvxf4D.Panel {
+    grid-template-columns: repeat(auto-fill, calc((854px - (var(--rkr-grid-margin) * 2) - (var(--rkr-capsule-gap) * (var(--rkr-capsule-cols) - 1))) / var(--rkr-capsule-cols))) !important;
+    grid-auto-rows: calc((854px - (var(--rkr-grid-margin) * 2) - (var(--rkr-capsule-gap) * (var(--rkr-capsule-cols) - 1))) / var(--rkr-capsule-row-ratio)) !important;
+    gap: var(--rkr-capsule-gap) !important;
+}
+
+/* ITEM CONTAINER */
+._3IWn-2rn7x98o5fDd0rAxb ._1J1LQ0vGtpM3n0xw7XwQM6 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    bottom: 0px
+}
+
+/* LABEL ITEM */
+._1J1LQ0vGtpM3n0xw7XwQM6 div:not(._36QQLBgXFUVTOhU9jMkCWD) {
+    position: absolute;
+    top: calc(var(--rkr-label-pos-top) var(--rkr-label-pos-voffset-dir) var(--rkr-label-pos-voffset) var(--rkr-label-pos-voffsetf-dir) var(--rkr-label-pos-voffsetf)) !important;
+    left: calc(var(--rkr-label-pos-left) var(--rkr-label-pos-hoffset-dir) var(--rkr-label-pos-hoffset) var(--rkr-label-pos-hoffsetf-dir) var(--rkr-label-pos-hoffsetf)) !important;
+    right: unset !important;
+    bottom: unset !important;
+    transform: translate(var(--rkr-label-pos-xtransform), var(--rkr-label-pos-ytransform));
+}
+
+/* COUNT ITEM */
+._3IWn-2rn7x98o5fDd0rAxb ._1J1LQ0vGtpM3n0xw7XwQM6 ._36QQLBgXFUVTOhU9jMkCWD {
+    position: absolute;
+    top: calc(var(--rkr-count-pos-top) var(--rkr-count-pos-voffset-dir) var(--rkr-count-pos-voffset) var(--rkr-count-pos-voffsetf-dir) var(--rkr-count-pos-voffsetf)) !important;
+    left: calc(var(--rkr-count-pos-left) var(--rkr-count-pos-hoffset-dir) var(--rkr-count-pos-hoffset) var(--rkr-count-pos-hoffsetf-dir) var(--rkr-count-pos-hoffsetf)) !important;
+    right: unset !important;
+    bottom: unset !important;
+    transform: translate(var(--rkr-count-pos-xtransform), var(--rkr-count-pos-ytransform));
+}
+
+/* DYNAMIC BADGE ITEM */
+.sZaUDqkKPd-EtHyaNfoKG.Focusable svg {
+    position: absolute;
+    top: calc(var(--rkr-dynamic-badge-pos-top) var(--rkr-dynamic-badge-pos-voffset-dir) var(--rkr-dynamic-badge-pos-voffset) var(--rkr-dynamic-badge-pos-voffsetf-dir) var(--rkr-dynamic-badge-pos-voffsetf)) !important;
+    left: calc(var(--rkr-dynamic-badge-pos-left) var(--rkr-dynamic-badge-pos-hoffset-dir) var(--rkr-dynamic-badge-pos-hoffset) var(--rkr-dynamic-badge-pos-hoffsetf-dir) var(--rkr-dynamic-badge-pos-hoffsetf)) !important;
+    right: unset !important;
+    bottom: unset !important;
+    transform: translate(var(--rkr-dynamic-badge-pos-xtransform), var(--rkr-dynamic-badge-pos-ytransform));
+}
