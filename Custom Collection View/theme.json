@@ -2,7 +2,7 @@
   "name": "Custom Collection View",
   "author": "rkr87",
   "version": "v1.0",
-  "description": "blah",
+  "description": "A highly configurable plugin for customising the 'Collections' view. Best endeavors have been made to ensure scrolling through the collections is not limited (like in other collection plugins), however, some column layouts will scroll imprecisely due to the nature of editing scroll event grids.",
   "target": "Library",
   "manifest_version": 9,
   "inject": {
