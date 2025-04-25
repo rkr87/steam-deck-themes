@@ -1,7 +1,7 @@
 {
   "name": "Custom Collection View",
   "author": "rkr87",
-  "version": "v1.1",
+  "version": "v1.2",
   "description": "A highly configurable plugin for customising the 'Collections' view. Best endeavors have been made to ensure scrolling through the collections is not limited (like in other collection plugins), however, some column layouts will scroll imprecisely due to the nature of editing scroll event grids.",
   "target": "Library",
   "manifest_version": 9,
@@ -595,7 +595,7 @@
       },
       "components": []
     },
-    "CapsuleArt- Focus Offset": {
+    "[Capsule Art] Focus Offset": {
       "type": "dropdown",
       "default": "On",
       "values": {
@@ -1391,9 +1391,9 @@
       "type": "dropdown",
       "default": "Bottom",
       "values": {
-        "Top": {"--rkr-count-pos-top": ["0%","bigpicture"],"--rkr-count-pos-ytransform": ["3px","bigpicture"]},
+        "Top": {"--rkr-count-pos-top": ["0%","bigpicture"],"--rkr-count-pos-ytransform": ["0%","bigpicture"]},
         "Middle": {"--rkr-count-pos-top": ["50%","bigpicture"],"--rkr-count-pos-ytransform": ["-50%","bigpicture"]},
-        "Bottom": {"--rkr-count-pos-top": ["100%","bigpicture"],"--rkr-count-pos-ytransform": ["calc(-100% - 3px)","bigpicture"]}
+        "Bottom": {"--rkr-count-pos-top": ["100%","bigpicture"],"--rkr-count-pos-ytransform": ["-100%","bigpicture"]}
       },
       "components": []
     },
@@ -1463,9 +1463,9 @@
       "type": "dropdown",
       "default": "Centre",
       "values": {
-        "Left": {"--rkr-count-pos-left": ["0%","bigpicture"],"--rkr-count-pos-xtransform": ["3px","bigpicture"]},
+        "Left": {"--rkr-count-pos-left": ["0%","bigpicture"],"--rkr-count-pos-xtransform": ["0%","bigpicture"]},
         "Centre": {"--rkr-count-pos-left": ["50%","bigpicture"],"--rkr-count-pos-xtransform": ["-50%","bigpicture"]},
-        "Right": {"--rkr-count-pos-left": ["100%","bigpicture"],"--rkr-count-pos-xtransform": ["calc(-100% - 3px)","bigpicture"]}
+        "Right": {"--rkr-count-pos-left": ["100%","bigpicture"],"--rkr-count-pos-xtransform": ["-100%","bigpicture"]}
       },
       "components": []
     },
@@ -1638,9 +1638,9 @@
       "type": "dropdown",
       "default": "Bottom",
       "values": {
-        "Top": {"--rkr-dynamic-badge-pos-top": ["0%","bigpicture"],"--rkr-dynamic-badge-pos-ytransform": ["3px","bigpicture"]},
+        "Top": {"--rkr-dynamic-badge-pos-top": ["0%","bigpicture"],"--rkr-dynamic-badge-pos-ytransform": ["0%","bigpicture"]},
         "Middle": {"--rkr-dynamic-badge-pos-top": ["50%","bigpicture"],"--rkr-dynamic-badge-pos-ytransform": ["-50%","bigpicture"]},
-        "Bottom": {"--rkr-dynamic-badge-pos-top": ["100%","bigpicture"],"--rkr-dynamic-badge-pos-ytransform": ["calc(-100% - 3px)","bigpicture"]}
+        "Bottom": {"--rkr-dynamic-badge-pos-top": ["100%","bigpicture"],"--rkr-dynamic-badge-pos-ytransform": ["-100%","bigpicture"]}
       },
       "components": []
     },
@@ -1710,9 +1710,9 @@
       "type": "dropdown",
       "default": "Right",
       "values": {
-        "Left": {"--rkr-dynamic-badge-pos-left": ["0%","bigpicture"],"--rkr-dynamic-badge-pos-xtransform": ["3px","bigpicture"]},
+        "Left": {"--rkr-dynamic-badge-pos-left": ["0%","bigpicture"],"--rkr-dynamic-badge-pos-xtransform": ["0%","bigpicture"]},
         "Centre": {"--rkr-dynamic-badge-pos-left": ["50%","bigpicture"],"--rkr-dynamic-badge-pos-xtransform": ["-50%","bigpicture"]},
-        "Right": {"--rkr-dynamic-badge-pos-left": ["100%","bigpicture"],"--rkr-dynamic-badge-pos-xtransform": ["calc(-100% - 3px)","bigpicture"]}
+        "Right": {"--rkr-dynamic-badge-pos-left": ["100%","bigpicture"],"--rkr-dynamic-badge-pos-xtransform": ["-100%","bigpicture"]}
       },
       "components": []
     },
