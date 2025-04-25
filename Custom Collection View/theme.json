@@ -1,7 +1,7 @@
 {
   "name": "Custom Collection View",
   "author": "rkr87",
-  "version": "v1.0",
+  "version": "v1.1",
   "description": "A highly configurable plugin for customising the 'Collections' view. Best endeavors have been made to ensure scrolling through the collections is not limited (like in other collection plugins), however, some column layouts will scroll imprecisely due to the nature of editing scroll event grids.",
   "target": "Library",
   "manifest_version": 9,
@@ -83,6 +83,26 @@
           "on": "Custom",
           "default": "#6278a3",
           "css_variable": "--rkr-capsule-background",
+          "tabs": ["bigpicture"]
+        }
+      ]
+    },
+    "[Capsule] Tint": {
+      "type": "dropdown",
+      "default": "None",
+      "values": {
+        "None": {"--rkr-capsule-tint": ["#none","bigpicture"]},
+        "White": {"--rkr-capsule-tint": ["#ffffff","bigpicture"]},
+        "Black": {"--rkr-capsule-tint": ["#000000","bigpicture"]},
+        "Custom": {}
+      },
+      "components": [
+        {
+          "name": "Colour Picker",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#ff0000",
+          "css_variable": "--rkr-capsule-tint",
           "tabs": ["bigpicture"]
         }
       ]
@@ -572,6 +592,15 @@
         "7": {"--rkr-art-xrotf": ["7deg","bigpicture"]},
         "8": {"--rkr-art-xrotf": ["8deg","bigpicture"]},
         "9": {"--rkr-art-xrotf": ["9deg","bigpicture"]}
+      },
+      "components": []
+    },
+    "CapsuleArt- Focus Offset": {
+      "type": "dropdown",
+      "default": "On",
+      "values": {
+        "On": {},
+        "Off": {"capsule/no-focus.css": ["bigpicture"]}
       },
       "components": []
     },
